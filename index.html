@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.yj2{
+			border-radius: 5px;
+		}
+		.yj{
+			color: gray;
+			height: 30px;
+			width: 200px;
+			border: 1px solid black;
+		}
+		.fl{
+			float: left;
+		}
+		.an{
+			height: 30px;
+			padding: 0 10px;
+			background-color: yellow;
+		}
+		.main{
+			width: 400px;
+			height: 400px;
+			margin: 20px;
+			padding-top: 15px;
+			border: 1px solid gray;
+			border-radius: 5px;
+		}
+		div div{
+			height: 40px;
+			width: 300px;
+			text-align: right;
+			margin-top: 15px;
+			right: 100px;
+			overflow: hidden;
+		}
+		.gg{
+			height: 40px;
+			width: 300px;
+			text-align: right;
+			margin-top: 15px;
+			right: 100px;
+			overflow: hidden;
+		}
+		.main .sanjiao{
+			position: relative;
+			left: 0;
+			width: 0;
+			height: 0;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent;
+			border-right: 15px solid blue;
+		}
+		.main .tip{
+			color: white;
+			position: absolute;
+			left: 335px;
+			height: 20px;
+			background-color: blue;
+			border-radius: 0 5px 5px 0;
+		}
+		.cl{
+			clear: both;
+			height: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class=" fl">
+			<span>用户名</span>
+			<input class="yj yj2" type="text" value="输入英文字母或者数字" />
+		</div>
+		<div class="sanjiao fl"></div>
+		<div class="tip fl">用户名必须为4-16位英文字母或者数字</div>
+		<div class="cl"></div>
+		<div class="gg">
+			<span>密码</span>
+			<input class="yj yj2" type="password" value="******" />
+		</div>
+		<div class="gg">
+			<span>确认密码</span>
+			<input class="yj yj2" type="password" value="******" />
+		</div>
+		<div class="gg">
+			<span>email</span>
+			<input class="yj yj2" type="text" value="123456789@qq.com" />
+		</div>
+		<div class="gg">
+			<span>昵称</span>
+			<input class="yj yj2" type="text" value="输入英文字母或者数字" />
+		</div>
+		<div class="zc">
+			<input type="submit" value="注册" class="an yj2"/>
+			<input type="submit" value="我有账号，我要登录" class="an yj2"/>
+		</div>
+	</div>
+		
+</body>
+</html>
