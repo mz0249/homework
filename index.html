@@ -17,9 +17,6 @@
 			width: 200px;
 			border: 1px solid gray;
 		}
-		.fl{
-			float: left;
-		}
 		.an{
 			height: 30px;
 			padding: 0 10px;
@@ -34,13 +31,14 @@
 			height: 40px;
 			width: 300px;
 			text-align: right;
-			padding-top: 10px;
+			margin-top: 10px;
 			right: 100px;
-			overflow: hidden;
 		}
 		.main .sanjiao{
 			width: 0;
 			height: 0;
+			left: 300px;
+			position: absolute;
 			border-top: 20px solid transparent;
 			border-bottom: 20px solid transparent;
 			border-right: 15px solid blue;
@@ -57,12 +55,12 @@
 </head>
 <body>
 	<div class="main yj2">
-		<div class="gg fl">
+		<div class="sanjiao "></div>
+		<div class="tip yj2">用户名必须为4-16位英文字母或者数字</div>
+		<div class="gg">
 			<span>用户名</span>
 			<input class="yj yj2" type="text" value="输入英文字母或者数字" />
 		</div>
-		<div class="sanjiao fl"></div>
-		<div class="tip yj2">用户名必须为4-16位英文字母或者数字</div>
 		<div class="gg">
 			<span>密码</span>
 			<input class="yj yj2" type="password" value="******" />
